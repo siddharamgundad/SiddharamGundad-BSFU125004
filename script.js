@@ -43,3 +43,19 @@ const wasteMaterials = [
         image: "assets/images/sugarcane.jpg" 
     }
 ];
+wasteMaterials.forEach(item => {
+    grid.innerHTML += `
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <img src="${item.image}" class="card-img-top" alt="${item.name}" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title text-success">${item.name}</h5>
+                    <p class="price-tag">₹${item.price} <small class="text-muted">/ton</small></p>
+                    <p class="mb-1"><b>Quantity:</b> ${item.qty}</p>
+                    <p class="mb-3"><span class="location-badge">📍 ${item.loc}</span></p>
+                    <button class="btn btn-outline-success btn-sm w-100">View Details</button>
+                </div>
+            </div>
+        </div>
+    `;
+});
