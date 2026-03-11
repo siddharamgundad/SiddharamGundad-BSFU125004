@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8fbf9;
+}
+
+.hero-bg {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1500382017468-9049fee74a62?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(25, 135, 84, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price-badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.location-text {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.underline {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: #198754;
+}
