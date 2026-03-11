@@ -27,3 +27,19 @@ wasteMaterials.forEach(item => {
         </div>
     `;
 });
+const wasteMaterials = [
+    { 
+        name: "Rice Husk", 
+        price: "2,500", 
+        qty: "50 Tons", 
+        loc: "Punjab", 
+        image: "assets/images/rice-husk.jpg" // Path to your file
+    },
+    { 
+        name: "Sugarcane Bagasse", 
+        price: "1,800", 
+        qty: "100 Tons", 
+        loc: "Maharashtra", 
+        image: "assets/images/sugarcane.jpg" 
+    }
+];
