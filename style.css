@@ -65,9 +65,9 @@ body {
 }
 
 #profile-img {
-    width: 450px;
-    height: 450px;
-    border-radius: 50%; /* Makes the image square */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the image Square */
     object-fit: cover;
     border: 3px solid #333;
     margin-bottom: 15px;
