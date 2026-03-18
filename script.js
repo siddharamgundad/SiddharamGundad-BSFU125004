@@ -87,3 +87,13 @@ function showDetail(id) {
 
 // Run the function when the page loads
 document.addEventListener('DOMContentLoaded', loadMarketplace);
+// Verification script for Student Profile
+document.addEventListener('DOMContentLoaded', () => {
+    const studentName = "Siddharam.B.Gundad";
+    const prn = "BSFU125004";
+    
+    console.log("Portfolio Loaded: " + studentName + " (PRN: " + prn + ")");
+    
+    // Optional: Alert or Welcome message
+    // alert("Welcome to the profile of " + studentName);
+});
