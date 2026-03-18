@@ -56,3 +56,25 @@ body {
     height: 4px;
     background-color: #198754;
 }
+/* Profile Section Styling */
+.profile-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ddd;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    border: 3px solid #333;
+    margin-bottom: 15px;
+}
+
+.student-info {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
