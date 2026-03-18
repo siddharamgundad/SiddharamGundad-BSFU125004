@@ -65,9 +65,9 @@ body {
 }
 
 #profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Makes the image circular */
+    width: 450px;
+    height: 450px;
+    border-radius: 50%; /* Makes the image square */
     object-fit: cover;
     border: 3px solid #333;
     margin-bottom: 15px;
